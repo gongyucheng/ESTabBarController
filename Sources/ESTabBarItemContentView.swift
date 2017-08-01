@@ -204,7 +204,7 @@ open class ESTabBarItemContentView: UIView {
             titleLabel.sizeToFit()
             imageView.sizeToFit()
             titleLabel.frame = CGRect.init(x: (w - titleLabel.bounds.size.width) / 2.0,
-                                           y: h - titleLabel.bounds.size.height - 1.0,
+                                           y: h - titleLabel.bounds.size.height - 4.0,
                                            width: titleLabel.bounds.size.width,
                                            height: titleLabel.bounds.size.height)
             imageView.frame = CGRect.init(x: (w - imageView.bounds.size.width) / 2.0,
